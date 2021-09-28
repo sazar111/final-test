@@ -10,6 +10,7 @@
 
 .logo {
     display: relative;
+    padding: 10px;
     z-index: 10;
     width: 90px;
     margin-left: 15px;
@@ -20,10 +21,12 @@
 @media screen and (max-width: 900px) {
     .logo {
         width: 69px;
-        top: -110px;
-        left: -10px;
+        top: -20vh;
+        left: -1vh;
+        padding: 0px;
     }
 }
+
 
 .mentions {
     letter-spacing: 5px;
